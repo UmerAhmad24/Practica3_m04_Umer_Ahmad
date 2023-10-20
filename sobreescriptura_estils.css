@@ -1,0 +1,54 @@
+#container{
+    /* dentifica de forma exclusiva algo     */
+    width: 100%;
+    margin: auto;
+}
+/*1. color general de la lletra negra*/
+p {
+    color:black
+}
+/*2. titol nivell 1 fons blanc lletra gris*/
+h1 {
+    background-color: white;
+    color: grey;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+strong, .paragraf2 strong {
+    /* LA COMA SIRVE PARA SELECIONAR VARIAS COSAS A LA VEZ*/
+    color: green;
+    text-decoration: underline;
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 > a {
+    /*para darle classe a algo 
+    selector a los hijos*/
+    font-style: italic;
+
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?
+Se combinan los dos ficheros y el que tiene mas valor se aplica ese valor,
+Se cambia todo en plan: lo que antes era 1 ahora es 2 y lo que antes era 2 ahora es 1.
+VALORES QUE CAMBIAN
+EL H1 NO TIENE FONDO GRIS
+EL STRONG DEJA DE SER VERDE Y CAMBIA A ROSA
+LOS ENLAÇES DEJAN DE FUNCIONAR
+Y LA LETRA DEL COCUMENTO CAMBIA DE NEGRO A GRIS
+VALORES QUE NO CAMBIAN
+EL COLOR H1
+LOS LINKS
+EL FOTER SIGUE CENTRADO Y A 10 PX
+
+
+
+para que sean lo mismo que el anterior documento cambiamos orden lo que yo haria seria usar classes y IDs.*/
+
+
